@@ -65,7 +65,7 @@ def FormularioPersona(request):
         formulario = PersonaForm(request.POST)
         if formulario.is_valid:
             formulario.save()
-            data["mensaje"]="Exito"
+            data["mensaje"]="Éxito"
 
         else:
             data["form"]=formulario
@@ -83,7 +83,7 @@ def form_mod_pers(request, id):
         formulario = PersonaForm(data=request.POST,instance=Persona)
         if formulario.is_valid:
             formulario.save()
-            data ["mensaje"]="Modificacion correcta"
+            data ["mensaje"]="Modificación correcta"
     
 
 
@@ -115,7 +115,7 @@ def Registrarse(request):
         formulario = RegistrarseForm(request.POST)
         if formulario.is_valid:
             formulario.save()
-            data["mensaje"]="Exito"
+            data["mensaje"]="Éxito  "
 
         else:
             data["form"]=formulario  
