@@ -58,7 +58,7 @@ ROOT_URLCONF = 'Bicicletas.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [r'C:\Users\camilo\Desktop\Proyecto bicicletas\Bicicletas\core\template'],
+        'DIRS': [r'C:\Users\felif\Documents\GitHub\BicicletasProyecto\Bicicletas\core\templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
